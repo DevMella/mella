@@ -1,0 +1,7 @@
+.now{
+    background-color: #f1f0ed;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}

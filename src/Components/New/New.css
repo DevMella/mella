@@ -1,0 +1,26 @@
+.new{
+    width: 100%;
+    background-image: url(../../assets/pass.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0px 60px 0px;
+    border-radius: 10px;
+}
+.new p{
+    width: 700px;
+}
+.new button{
+    border: 1px solid white;  
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 60px;
+}
+@media (max-width:764px) {
+    .new p{
+        width: 100%;
+    }
+    .new h1{
+        font-size: 40px;
+    }
+}

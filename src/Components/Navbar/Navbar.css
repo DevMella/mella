@@ -1,0 +1,43 @@
+.navbar {
+    background: url('../../assets/hero2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#offcanvasRight {
+    width: 600px;
+}
+#offcanvasRight a button, .owo {
+    padding: 5px 20px;
+    background-color: #67645e;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 19px;
+}
+.quantity-adjustment {
+    display: none; 
+    align-items: center;
+}
+.oro span {
+    font-weight: 800;
+    font-size: 17px;
+}
+#productDetails{
+    display: flex;
+}
+.selected-product {
+    display: none;
+    gap: 10px;
+}
+.sid {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    padding: 0 10px;
+}
+.remove-button{
+    text-decoration: underline;
+    margin-left: 10px;
+}

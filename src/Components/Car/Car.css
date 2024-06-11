@@ -1,0 +1,84 @@
+.car{
+    margin: 80px auto;
+    position: relative;
+    overflow: hidden !important;
+    width: 100%;
+    height: 67vh;
+}
+.nex{
+    position: absolute;
+    margin-top: 30px;
+    right: 100px;
+    padding: 15px;
+    width:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #a5a4a2;
+}
+.bac{
+    position: absolute;
+    right: auto;
+    left: 1060px; 
+    margin-top: 30px;
+    padding: 15px;
+    width:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #a5a4a2;
+}
+.sliders{
+    overflow: hidden;
+}
+.sliders ul{
+    display: flex;
+    width:190%;
+    overflow: hidden;
+    transition: 0.5s;
+    gap: 40px;
+} 
+.sliders ul li{
+    list-style-type: none;
+}
+.image-containe {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.move{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.image-containe:hover .move{
+    opacity: 1;
+    padding-top: 0;
+}
+@media (max-width:764px) {
+    .sliders ul{
+        width:590%;
+    } 
+    .nex{
+        right: 10px;
+    }
+    .bac{
+        left: 260px; 
+    }
+    .car{
+        height: 47vh;
+    }
+}
